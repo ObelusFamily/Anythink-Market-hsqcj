@@ -10,4 +10,10 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+This app requires docker to run. Install Docker [here](https://docs.docker.com/get-docker/)
+
+First clone this repository, then run `docker-compose up` from the project root directory.
+
+Navigate to http://localhost:3000/api/ping to check out the backend.
+
+Navigate to http://localhost:3001/register to check out the frontend.
