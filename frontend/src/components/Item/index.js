@@ -54,7 +54,10 @@ class Item extends React.Component {
                 alt={this.props.item.title}
                 className="item-img"
                 style={{ height: "500px", width: "100%", borderRadius: "6px" }}
-                onError={(event) => (event.target.src = "/placeholder.png")}
+                onError={(event) =>
+                  (this.props.item.image = event.target.src =
+                    "/placeholder.png")
+                }
               />
             </div>
 
